@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>7.6下拉刷新交互</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/7_6下拉刷新交互/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/7_6下拉刷新交互/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 列表容器 (动态面板) -->
+      <div id="u7047" class="ax_default" data-label="列表容器">
+        <div id="u7047_state0" class="panel_state" data-label="State1" style="">
+          <div id="u7047_state0_content" class="panel_state_content">
+
+            <!-- 下拉刷新 (动态面板) -->
+            <div id="u7048" class="ax_default" data-label="下拉刷新">
+              <div id="u7048_state0" class="panel_state" data-label="列表区域" style="">
+                <div id="u7048_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (热区) -->
+                  <div id="u7049" class="ax_default">
+                  </div>
+
+                  <!-- 刷新 (动态面板) -->
+                  <div id="u7050" class="ax_default" data-label="刷新">
+                    <div id="u7050_state0" class="panel_state" data-label="下拉刷新" style="">
+                      <div id="u7050_state0_content" class="panel_state_content">
+
+                        <!-- Unnamed (矩形) -->
+                        <div id="u7051" class="ax_default _默认样式">
+                          <div id="u7051_div" class=""></div>
+                          <div id="u7051_text" class="text ">
+                            <p><span style="font-family:'FontAwesome', sans-serif;font-weight:400;"></span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">&nbsp; 下拉刷新</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u7050_state1" class="panel_state" data-label="松开刷新" style="visibility: hidden;">
+                      <div id="u7050_state1_content" class="panel_state_content">
+
+                        <!-- Unnamed (矩形) -->
+                        <div id="u7052" class="ax_default _默认样式">
+                          <div id="u7052_div" class=""></div>
+                          <div id="u7052_text" class="text ">
+                            <p><span style="font-family:'FontAwesome', sans-serif;font-weight:400;"> </span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;"> 松开刷新</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u7050_state2" class="panel_state" data-label="正在刷新" style="visibility: hidden;">
+                      <div id="u7050_state2_content" class="panel_state_content">
+
+                        <!-- Unnamed (矩形) -->
+                        <div id="u7053" class="ax_default label">
+                          <div id="u7053_div" class=""></div>
+                          <div id="u7053_text" class="text ">
+                            <p><span>正在刷新</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (图片 ) -->
+                        <div id="u7054" class="ax_default _默认样式">
+                          <img id="u7054_img" class="img " src="images/7_5上拉加载交互/u7021.gif"/>
+                          <div id="u7054_text" class="text " style="display:none; visibility: hidden">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 列表 (动态面板) -->
+                  <div id="u7055" class="ax_default" data-label="列表">
+                    <div id="u7055_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u7055_state0_content" class="panel_state_content">
+
+                        <!-- 卡片 (动态面板) -->
+                        <div id="u7056" class="ax_default" data-label="卡片">
+                          <div id="u7056_state0" class="panel_state" data-label="1" style="">
+                            <div id="u7056_state0_content" class="panel_state_content">
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7057" class="ax_default _形状1">
+                                <div id="u7057_div" class=""></div>
+                                <div id="u7057_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7058" class="ax_default _形状1">
+                                <div id="u7058_div" class=""></div>
+                                <div id="u7058_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7059" class="ax_default _形状1">
+                                <div id="u7059_div" class=""></div>
+                                <div id="u7059_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7060" class="ax_default _形状1">
+                                <div id="u7060_div" class=""></div>
+                                <div id="u7060_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7061" class="ax_default _形状1">
+                                <div id="u7061_div" class=""></div>
+                                <div id="u7061_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7062" class="ax_default _形状1">
+                                <div id="u7062_div" class=""></div>
+                                <div id="u7062_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7063" class="ax_default _形状1">
+                                <div id="u7063_div" class=""></div>
+                                <div id="u7063_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7064" class="ax_default _形状1">
+                                <div id="u7064_div" class=""></div>
+                                <div id="u7064_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7065" class="ax_default _形状1">
+                                <div id="u7065_div" class=""></div>
+                                <div id="u7065_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7066" class="ax_default _形状1">
+                                <div id="u7066_div" class=""></div>
+                                <div id="u7066_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div id="u7056_state1" class="panel_state" data-label="2" style="visibility: hidden;">
+                            <div id="u7056_state1_content" class="panel_state_content">
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7067" class="ax_default _形状1">
+                                <div id="u7067_div" class=""></div>
+                                <div id="u7067_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7068" class="ax_default _形状1">
+                                <div id="u7068_div" class=""></div>
+                                <div id="u7068_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7069" class="ax_default _形状1">
+                                <div id="u7069_div" class=""></div>
+                                <div id="u7069_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7070" class="ax_default _形状1">
+                                <div id="u7070_div" class=""></div>
+                                <div id="u7070_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7071" class="ax_default _形状1">
+                                <div id="u7071_div" class=""></div>
+                                <div id="u7071_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7072" class="ax_default _形状1">
+                                <div id="u7072_div" class=""></div>
+                                <div id="u7072_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7073" class="ax_default _形状1">
+                                <div id="u7073_div" class=""></div>
+                                <div id="u7073_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7074" class="ax_default _形状1">
+                                <div id="u7074_div" class=""></div>
+                                <div id="u7074_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7075" class="ax_default _形状1">
+                                <div id="u7075_div" class=""></div>
+                                <div id="u7075_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u7076" class="ax_default _形状1">
+                                <div id="u7076_div" class=""></div>
+                                <div id="u7076_text" class="text ">
+                                  <p><span></span></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
